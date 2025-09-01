@@ -3,6 +3,6 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class TagService {
   getAll() {
-    return ['ai', 'typescript', 'javascript', 'angularjava'];
+    return ['ai', 'typescript', 'javascript', 'nice'];
   }
 }
